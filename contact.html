@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="th">
+<head>
+	<meta charset="UTF-8">
+	<title>ติดต่อเรา | Plant Consultant</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="images/favicon.png" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/phone.css">
+
+	<style>
+		body, .cloudlight { font-family: 'Prompt', sans-serif; font-weight: 300; }
+		.cloudregular, .menu, .mnahead, .mnlink, .mnlink2, .mndsubh, .mndhead, .mnchead,
+		.contact-infos .social a, .contact-layout .heading { font-family: 'Prompt', sans-serif; font-weight: 400; }
+		.cloudbold { font-family: 'Prompt', sans-serif; font-weight: 700; }
+		.silk_serifbold, .mnsubh, .mnehead, .mnadesc { font-family: 'Playfair Display', serif; font-weight: 700; }
+		.silk_serifmedium, .mnhead, .fthead, .ftmenu { font-family: 'Playfair Display', serif; font-weight: 500; }
+		.silk_serifregular, .mnbhead { font-family: 'Playfair Display', serif; font-weight: 400; }
+		.clear { clear: both; }
+	</style>
+
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body data-page="contact">
+
+<div id="wrapper">
+
+<div id="header-placeholder"></div>
+
+<div id="content">
+	<div class="contact">
+
+		<!-- Title -->
+		<div class="mnecon" data-visible>
+			<h2 class="mnsubh">contact us</h2>
+			<h3 class="mslhead">ติดต่อเรา</h3>
+			<img alt="" class="mneicon" src="images/01-main_115.png" />
+		</div>
+
+		<img alt="" class="icon_n" src="images/element_c.png" />
+		<img alt="" class="icon_o" src="images/element_a.png" />
+		<img alt="" class="icon_p" src="images/element_a.png" />
+
+		<!-- Contact Layout: Info only -->
+		<div class="contact-layout" style="justify-content: center;">
+
+			<div class="col" style="width: auto; text-align: center;">
+				<h3 class="heading">Plant Consultant</h3>
+				<div class="contact-infos">
+					<address>บริษัท แพลนท์คอนซัลแทนท์ จำกัด<br>
+					2/4 อาคารฮับ24 อาคาร4 ชั้นที่1-2 ห้องเลขที่4101<br>
+					ซอยรามคำแหง24 ถนนรามคำแหง แขวงหัวหมาก เขตบางกะปิ กรุงเทพมหานคร 10240</address>
+					<p><a href="tel:+66656589494">06-5658-9494</a>, <a href="tel:+668302073683">08-3020-7368</a></p>
+					<p class="social">
+						<a href="https://www.facebook.com/plantconsultant/" target="_blank">
+							<i class="ic"><img src="images/facebook.svg" alt="Facebook"></i>
+							<span class="ic-name">Plant</span>
+						</a>
+					</p>
+					<a href="https://lin.ee/4wqsaOK"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน" height="36" border="0"></a>
+				</div>
+			</div>
+
+		</div><!-- .contact-layout -->
+
+		<div class="clear"></div>
+	</div><!-- .contact -->
+</div><!-- #content -->
+
+<div id="footer-placeholder"></div>
+
+</div><!--#wrapper-->
+
+<script src="js/includes.js"></script>
+<script>
+jQuery(document).ready(function($) {
+	$(window).on('load scroll', function() {
+		$('[data-visible]').each(function() {
+			var rect = this.getBoundingClientRect();
+			var wh = window.innerHeight || document.documentElement.clientHeight;
+			if (rect.top <= wh && rect.bottom >= 0) {
+				$(this).addClass('visible');
+			}
+		});
+	});
+});
+</script>
+
+</body>
+</html>

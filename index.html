@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html>
+<html lang="th">
+<head>
+	<meta charset="UTF-8">
+	<title>Plant Consultant</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="images/favicon.png" />
+
+	<!-- Google Fonts as replacement for custom Cloud/Silk Serif fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@4/dist/css/swiper.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/phone.css">
+
+	<style>
+		/* Font fallback mappings */
+		body, .cloudlight { font-family: 'Prompt', sans-serif; font-weight: 300; }
+		.cloudregular, .menu, .mnahead, .mnlink, .mnlink2, .mndsubh, .mndhead, .mnchead,
+		.contact-infos .social a, .contact-layout .heading { font-family: 'Prompt', sans-serif; font-weight: 400; }
+		.cloudbold, .abasubh, .svcorpboxh h2, .svcorpboxh h3, .svcorpboxh p,
+		.svaboxh h3, .actsgcon h1, .svsgscon h2, .asgbhead { font-family: 'Prompt', sans-serif; font-weight: 700; }
+
+		.silk_serifbold, .mnsubh, .mnehead, .mnadesc { font-family: 'Playfair Display', serif; font-weight: 700; }
+		.silk_serifmedium, .mnhead, .fthead, .ftmenu, .testimonial-section .heading { font-family: 'Playfair Display', serif; font-weight: 500; }
+		.silk_serifregular, .mnbhead { font-family: 'Playfair Display', serif; font-weight: 400; }
+
+		/* Hero image as background instead of Galleria */
+		.mainslide .hero-bg {
+			position: absolute;
+			top: 0; left: 0; right: 0; bottom: 0;
+			width: 100%; height: 100%;
+			object-fit: cover;
+		}
+
+		.clear { clear: both; }
+	</style>
+
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@4/dist/js/swiper.min.js"></script>
+</head>
+
+<body data-page="index">
+
+<div id="wrapper">
+
+<div id="header-placeholder"></div>
+
+<div id="content">
+
+	<!-- Hero Section -->
+	<div class="mainslide" data-visible>
+		<img class="hero-bg" src="images/01-main_01.jpg" alt="Plant Consultant Hero" />
+		<div class="mainon" data-visible>
+			<br><br><br>
+			<h3 class="mnsubh">We are plant</h3>
+			<h2 class="mslhead">สถานที่เพาะปลูกความมั่นคงทางการเงิน</h2>
+			<p class="mntext" data-visible>"PLANT คือสถานที่เพาะปลูกความมั่นคงทางการเงิน เราสร้างเส้นทางสู่เป้าหมายทางการเงินให้คุณ <span>ด้วยนักเพาะปลูกมืออาชีพ ที่เต็มไปด้วยประสบการณ์การสร้างแผนการออม</span> เกษียณอายุ ความคุ้มครองชีวิต/สุขภาพ และแผนมรดก และการวางแผนการเงิน เพื่อให้คุณสามารถออกแบบแผนการเงินของคุณและครอบครัวได้ด้วยตัวคุณเอง"</p>
+			<a href="https://lin.ee/4wqsaOK" class="mnlink2" data-visible>สอบถามข้อมูลเพิ่มเติมผ่านทาง LINE</a>
+		</div>
+		<img alt="" class="icon_a" src="images/element_a.png" />
+		<img alt="" class="icon_b" src="images/element_b.png" />
+		<img alt="" class="icon_c" src="images/element_a.png" />
+		<img alt="" class="icon_d" src="images/element_c.png" />
+	</div>
+
+	<!-- Section A - Financial Planning -->
+	<div class="main_a" data-visible>
+		<h2 class="mnahead">การวางแผนการเงิน คืออะไร?</h2>
+		<p class="mnatext" data-visible>ที่ PLANT การวางแผนการเงิน คือ การทำให้เป้าหมายในชีวิตของคุณเปลี่ยนจากแค่ความฝันให้เป็นตัวเลข ที่สามารถทำให้เกิดขึ้นได้จริง ไม่ว่าจะเป็นการมีบ้าน การเก็บเงินเกษียณ หรือการศึกษาของบุตร และ พาคุณไปยังเป้าหมายนั้นอย่างมั่นคง และคุ้มค่า โดยเป็นไปอย่างมีลำดับขั้นตอนที่สามารถทำตามได้จริง</p>
+		<img alt="Financial Planning Overview" class="mnagraph" src="images/home-sec2-2.png" data-visible />
+
+		<!--
+		<div class="testimonial-section">
+			<h2 class="heading">TESTIMONIAL</h2>
+			<div class="testimonial-container">
+				<div class="swiper-container" id="testimonial-slider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="image object-fit"><img src="images/IMG_5819.png" alt="testimonial-1" /></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="image object-fit"><img src="images/IMG_5820.png" alt="testimonial-2" /></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="image object-fit"><img src="images/IMG_5822.png" alt="testimonial-3" /></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="image object-fit"><img src="images/IMG_5821.png" alt="testimonial-4" /></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="image object-fit"><img src="images/IMG_5823.png" alt="testimonial-5" /></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="image object-fit"><img src="images/IMG_5824.png" alt="testimonial-6" /></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="image object-fit"><img src="images/IMG_5825.png" alt="testimonial-7" /></div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-button swiper-button-prev"></div>
+				<div class="swiper-button swiper-button-next"></div>
+			</div>
+		</div>
+		-->
+
+		<!--
+		<div data-visible>
+			<img alt="" class="mnainfo desktop" src="images/01-main_38.png" />
+			<img alt="" class="mnainfo mobile" src="images/01-main.jpg" />
+		</div>
+		<a href="#" class="mnlink" data-visible>รายละเอียดเพิ่มเติม</a>
+		<img alt="" class="icon_e" src="images/element_c.png" />
+		<img alt="" class="icon_f" src="images/element_a.png" />
+		<img alt="" class="icon_g" src="images/element_b.png" />
+		-->
+	</div>
+
+	<!-- Services Section -->
+	<div class="main_bwrap">
+		<div class="main_b">
+			<div class="mnbcon" data-visible>
+				<a href="#" class="mnbaa"><img src="images/service1.png" alt="Plan for retirement" class="mnbpic" /></a>
+				<div class="mnbbox" data-visible>
+					<h3 class="mnbhead"><a href="#">Plan for retirement</a></h3>
+					<div class="mntext"><p>สร้างเส้นทางสู่เป้าหมายเกษียณอย่างที่คุณต้องการ ขอแค่คุณกล้าที่จะตั้งเป้า และมุ่งสู่เป้าหมายนั้นไปกับเรา</p></div>
+					<p class="mnbmore"><a href="#">รายละเอียดเพิ่มเติม</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="main_b">
+			<div class="mnbcon" data-visible>
+				<a href="#" class="mnbaa"><img src="images/service2.png" alt="Plan for investment" class="mnbpic" /></a>
+				<div class="mnbbox" data-visible>
+					<h3 class="mnbhead"><a href="#">Plan for investment</a></h3>
+					<div class="mntext"><p>เราให้ความสำคัญกับการสร้างแผนการลงทุน<br/>ที่เหมาะสมกับเป้าหมายของคุณ</p></div>
+					<p class="mnbmore"><a href="#">รายละเอียดเพิ่มเติม</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="main_b">
+			<div class="mnbcon" data-visible>
+				<a href="#" class="mnbaa"><img src="images/service3.png" alt="Plan for protection" class="mnbpic" /></a>
+				<div class="mnbbox" data-visible>
+					<h3 class="mnbhead"><a href="#">Plan for protection</a></h3>
+					<div class="mntext"><p>เราให้ความสำคัญกับผลประโยชน์ของคุณเป็นอันดับแรก ไม่ใช่จากผลตอบแทนที่ได้จากการขาย</p></div>
+					<p class="mnbmore"><a href="#">รายละเอียดเพิ่มเติม</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="main_b">
+			<div class="mnbcon" data-visible>
+				<a href="#" class="mnbaa"><img src="images/service4.png" alt="Plan for Tax" class="mnbpic" /></a>
+				<div class="mnbbox" data-visible>
+					<h3 class="mnbhead"><a href="#">Plan for Tax</a></h3>
+					<div class="mntext"><p>เราพร้อมช่วยเหลือคุณในการบริหารจัดการภาษี<br/>เพื่อให้คุณเสียภาษีอย่างถูกเงิน และถูกต้อง</p></div>
+					<p class="mnbmore"><a href="#">รายละเอียดเพิ่มเติม</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Partners Section -->
+	<div class="main_c" data-visible>
+		<h2 class="mnhead">PLANT CONSULTANT's<br/>Partner</h2>
+		<div class="mnccon" data-visible>
+			<div class="swiper-container" id="swiper01">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="mncbox">
+							<img src="images/01-main_64.png" alt="CFP" class="mnpic" />
+							<h3 class="mnchead">Planning Partner</h3>
+							<div class="mntext"><p>CFP® คุณวุฒิวิชาชีพนักวางแผนทางการเงินที่ได้รับการยอมรับในระดับโลก โดย Financial Planning Standards Board Ltd. – FPSB</p></div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="mncbox">
+							<img src="images/01-main_66.png" alt="MDRT" class="mnpic" />
+							<h3 class="mnchead">Professional Knowledge Partner</h3>
+							<div class="mntext"><p>MDRT สโมสรที่ได้รับการยอมรับด้าน มาตรฐานความเป็นเลิศของธุรกิจประกันชีวิต และ บริการวางแผนการเงินจาก นักวางแผนการเงินมืออาชีพทั่วโลก</p></div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="mncbox">
+							<img src="images/01-main_68.png" alt="Investment" class="mnpic" />
+							<h3 class="mnchead">Investment Partner</h3>
+							<div class="mntext"><p>พันธมิตรด้านการลงทุน ที่สามารถลงทุน ทั้งกองทุนรวมในไทยและต่างประเทศจาก 18 บริษัทจัดการกองทุนชั้นนำ</p></div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="mncbox">
+							<img src="images/01-main_70.png" alt="Allianz" class="mnpic" />
+							<h3 class="mnchead">Protection Partner</h3>
+							<div class="mntext"><p>พันธมิตรด้านความคุ้มครองจากกลุ่ม Allianz บริษัทประกันชีวิตชั้นนำของโลกที่มี ประสบการณ์ในธุรกิจกว่า 120 ปี</p></div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="mncbox">
+							<img src="images/Dailo.png" alt="Dailo" class="mnpic" />
+							<h3 class="mnchead">Potential Business Partner</h3>
+							<div class="mntext"><p>ระบบแนะนำประกันได้โล่ โดย เทรเชอริสต์ ที่มาพร้อมการจัดสรรสัดส่วนประกันชีวิตแบบต่างๆ ที่เหมาะสมกับลูกค้าแต่ละคน</p></div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination swiper-pagination-white"></div>
+			</div>
+		</div>
+		<img alt="" class="icon_j" src="images/element_a.png" />
+	</div>
+
+    <!--
+	<div class="main_d">
+		<div class="mndcon">
+			<div class="mndbox" data-visible>
+				<a href="#">
+					<img src="images/news-article-01.jpg" alt="" class="mnpic" style="width:100%;height:auto;" /></a>
+				<div class="mndsubh"><a href="#">ข่าวสาร</a></div>
+				<h3 class="mndhead"><a href="#">รวมลิ้งก์แจ้งสิทธิลดหย่อนภาษี SSF RMF ปี 2565</a></h3>
+				<div class="mndtext"><p>ปี 2565 เป็นปีแรกที่กรมสรรพากรกำหนดเกณฑ์ใหม่ ให้นักลงทุนซื้อหน่วยลงทุนในกองทุนรวมเพื่อการออม (SSF) หรือ กองทุนรวมเพื่อการเลี้ยงชีพ (RMF)...</p></div>
+				<p class="mnbmore"><a href="#">อ่านต่อ</a></p>
+			</div>
+			<div class="mndbox" data-visible>
+				<a href="#">
+					<img src="images/news-article-01.jpg" alt="" class="mnpic" style="width:100%;height:auto;" /></a>
+				<div class="mndsubh"><a href="#">ข่าวสาร</a></div>
+				<h3 class="mndhead"><a href="#">อวสานของเหรียญคริปโต? โดย ดร.นิเวศน์ เหมวชิรวรากร</a></h3>
+				<div class="mndtext"><p>"กระแส" ของเหรียญคริปโตที่อ้างว่าจะกลายเป็นเงินดิจิทัลใน "โลกแห่งอนาคต" ซึ่งรวมถึง "เมตาเวอร์ส"...</p></div>
+				<p class="mnbmore"><a href="#">อ่านต่อ</a></p>
+			</div>
+			<div class="mndbox" data-visible>
+				<a href="#">
+					<img src="images/news-article-02.jpg" alt="" class="mnpic" style="width:100%;height:auto;" /></a>
+				<div class="mndsubh"><a href="#">ข่าวสาร</a></div>
+				<h3 class="mndhead"><a href="#">เวลาช้อนหุ้นยิ่งใหญ่ โดย ดร.นิเวศน์ เหมวชิรวรากร</a></h3>
+				<div class="mndtext"><p>การปรับตัวขึ้นของหุ้นจีนอย่างโดดเด่นในช่วง 1 เดือนที่ผ่านมานั้นน่าจะทำให้หลายคนเริ่มคิดว่าถึงเวลาแล้วที่จะต้องเริ่ม "ช้อนหุ้น"...</p></div>
+				<p class="mnbmore"><a href="#">อ่านต่อ</a></p>
+			</div>
+		</div>
+		<img alt="" class="icon_k" src="images/element_a.png" />
+	</div>
+    -->
+
+	<!-- Contact Section -->
+	<div class="main_e">
+		<div class="mnecon" data-visible>
+			<h2 class="mnhead">READY TO<br/>GET STARTED?</h2>
+			<h3 class="mnehead">contact us</h3>
+			<img alt="" class="mneicon" src="images/01-main_115.png" />
+			<div class="contact-infos">
+				<address>บริษัท แพลนท์คอนซัลแทนท์ จำกัด <br>2/4 อาคารฮับ24 อาคาร4 ชั้นที่1-2 ห้องเลขที่4101 <br/>ซอยรามคำแหง24 ถนนรามคำแหง แขวงหัวหมาก เขตบางกะปิ กรุงเทพมหานคร 10240</address>
+				<p><a href="tel:+66656589494">06-5658-9494</a>, <a href="tel:+668302073683">08-3020-7368</a></p>
+				<p class="social">
+					<a href="https://www.facebook.com/plantconsultant/" target="_blank">
+						<i class="ic"><img src="images/facebook.svg" alt="Facebook"></i>
+						<span class="ic-name">Plant</span>
+					</a>
+				</p>
+				<a href="https://lin.ee/4wqsaOK"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน" height="36" border="0"></a>
+			</div>
+		</div>
+		<img alt="" class="icon_l" src="images/element_c.png" />
+		<img alt="" class="icon_m" src="images/element_b.png" />
+	</div>
+
+	<div class="clear"></div>
+</div>
+
+<div id="footer-placeholder"></div>
+
+</div><!--#wrapper-->
+
+<script src="js/includes.js"></script>
+<script>
+jQuery(document).ready(function($) {
+	$(window).on('load scroll', function() {
+		$('[data-visible]').each(function() {
+			if (isElementVisible(this)) {
+				$(this).addClass("visible");
+			}
+		});
+	});
+
+	function isElementVisible(el) {
+		var rect = el.getBoundingClientRect();
+		var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+		return (rect.top <= windowHeight && rect.bottom >= 0);
+	}
+
+	// Testimonial Slider
+	var testimonialSwiper = new Swiper('#testimonial-slider', {
+		effect: 'coverflow',
+		grabCursor: true,
+		centeredSlides: true,
+		slidesPerView: 2,
+		loop: true,
+		coverflowEffect: {
+			rotate: 0,
+			stretch: 300,
+			depth: 300,
+			modifier: 1,
+			slideShadows: true,
+		},
+		navigation: {
+			nextEl: '.testimonial-container .swiper-button-next',
+			prevEl: '.testimonial-container .swiper-button-prev',
+		},
+		breakpoints: {
+			767: {
+				slidesPerView: 1,
+				coverflowEffect: {
+					rotate: 0,
+					stretch: 150,
+					depth: 300,
+					modifier: 1,
+					slideShadows: true,
+				},
+			},
+		}
+	});
+
+	// Partners Slider
+	var partnerSwiper = new Swiper('#swiper01', {
+		slidesPerView: 4,
+		centeredSlides: true,
+		autoplay: {
+			delay: 2000
+		},
+		speed: 1000,
+		pagination: {
+			el: '#swiper01 .swiper-pagination',
+		},
+		breakpoints: {
+			768: {
+				slidesPerView: 1
+			}
+		}
+	});
+});
+</script>
+
+</body>
+</html>
