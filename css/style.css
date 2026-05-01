@@ -1736,6 +1736,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21333e', end
 	margin: 0px;
 	padding: 0px;
 	float: left;
+	padding-left: 2em;
 }
 .ftbox {
 	padding: 0px;
