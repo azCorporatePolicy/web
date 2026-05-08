@@ -15,7 +15,7 @@
 	<ul class="menu white">
 		<li><a href="index.html" data-page="index">หน้าหลัก</a></li>
 		<li><a href="about.html" data-page="about">เกี่ยวกับเรา</a></li>
-		<li class="menuservice"><a href="#" data-page="service">บริการ</a>
+		<li class="menuservice"><a href="service-corporation.html" data-page="service-corporation">บริการ</a>
 			<ul class="svmenu">
 				<li><a href="service-corporation.html" data-page="service-corporation">บริการสำหรับองค์กร</a></li>
 			</ul>
