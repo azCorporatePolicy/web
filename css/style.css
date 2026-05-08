@@ -1,4 +1,4 @@
-﻿/* Font mappings - using Google Fonts as fallback for custom fonts */
+/* Font mappings - using Google Fonts as fallback for custom fonts */
 /* cloudlight -> Prompt 300, cloudregular -> Prompt 400, cloudbold -> Prompt 700 */
 /* silk_serif* -> Playfair Display */
 
@@ -21,8 +21,8 @@ body {
 	padding: 0;
 	height: 100%;
 	color: #fff;
-	font-size: 16px;
-	background-color: #21333e;
+	font-size: 18px;
+	background-color: #1a3a52;
 	font-family: cloudlight;
 	line-height: 25px;
 }
@@ -89,9 +89,9 @@ height: 49px;
 	margin-left: 50px;
 }
 .menu {
-	font-size: 19px;
+	font-size: 20px;
 	line-height: 20px;
-	color: #21333E;
+	color: #1a3a52;
 	padding: 0px;
 	float: right;
 	margin-top: 0px;
@@ -114,7 +114,7 @@ height: 49px;
 	margin-left: 45px;
 }
 .menu li a {
-	color: #21333e;
+	color: #1a3a52;
 
 	transition: 0.5s;
 	opacity: 0.85;
@@ -249,14 +249,15 @@ height: auto;
 }
 
 .mnsubh {
-	font-size: 20px;
+	font-size: 30px;
 	line-height: 22px;
 	text-transform: uppercase;
 	padding: 0px;
-width: 80%;
-max-width: 880px;
-margin: 0px auto 15px;
-font-family: 'silk_serifbold';
+	width: 80%;
+	max-width: 880px;
+	margin: 0px auto 15px;
+	color: #D4AF37;
+	font-family: 'silk_serifbold';
 }
 .mslhead {
 	font-size: 45px;
@@ -267,7 +268,7 @@ max-width: 880px;
 margin: 0px auto 10px;
 }
 .mntext {
-	font-size: 15px;
+	font-size: 18px;
 	line-height: 24px;
 width: 80%;
 max-width: 880px;
@@ -280,7 +281,7 @@ margin-right: auto;
 .mnlink {
 	font-size: 18px;
 	line-height: 42px;
-	color: #DAB781;
+	color: #D4AF37;
 	display: inline-block;
 	padding: 0px;
 	height: 42px;
@@ -299,7 +300,7 @@ margin-right: auto;
 .mnlink2 {
 	font-size: 18px;
 	line-height: 42px;
-	color: #DAB781;
+	color: #D4AF37;
 	display: inline-block;
 	padding: 0px;
 	height: 42px;
@@ -375,23 +376,23 @@ box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.31);
 	padding-right: 0px;
 	padding-bottom: 110px;
 	padding-left: 0px;
-	background: rgba(41,42,55,1);
-	background: -moz-linear-gradient(top, rgba(41,42,55,1) 0%, rgba(37,46,58,1) 50%, rgba(33,51,62,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(41,42,55,1)), color-stop(50%, rgba(37,46,58,1)), color-stop(100%, rgba(33,51,62,1)));
-	background: -webkit-linear-gradient(top, rgba(41,42,55,1) 0%, rgba(37,46,58,1) 50%, rgba(33,51,62,1) 100%);
-	background: -o-linear-gradient(top, rgba(41,42,55,1) 0%, rgba(37,46,58,1) 50%, rgba(33,51,62,1) 100%);
-	background: -ms-linear-gradient(top, rgba(41,42,55,1) 0%, rgba(37,46,58,1) 50%, rgba(33,51,62,1) 100%);
-	background: linear-gradient(to bottom, rgba(41,42,55,1) 0%, rgba(37,46,58,1) 50%, rgba(33,51,62,1) 100%);
+	background: rgba(26,58,82,1);
+	background: -moz-linear-gradient(top, rgba(26,58,82,1) 0%, rgba(23,50,74,1) 50%, rgba(20,42,66,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(26,58,82,1)), color-stop(50%, rgba(23,50,74,1)), color-stop(100%, rgba(20,42,66,1)));
+	background: -webkit-linear-gradient(top, rgba(26,58,82,1) 0%, rgba(23,50,74,1) 50%, rgba(20,42,66,1) 100%);
+	background: -o-linear-gradient(top, rgba(26,58,82,1) 0%, rgba(23,50,74,1) 50%, rgba(20,42,66,1) 100%);
+	background: -ms-linear-gradient(top, rgba(26,58,82,1) 0%, rgba(23,50,74,1) 50%, rgba(20,42,66,1) 100%);
+	background: linear-gradient(to bottom, rgba(26,58,82,1) 0%, rgba(23,50,74,1) 50%, rgba(20,42,66,1) 100%);
 
 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#292a37', endColorstr='#21333e', GradientType=0 );
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a3a52', endColorstr='#14283a', GradientType=0 );
 	text-align: center;
 	position: relative;
 }
 .mnahead {
 	font-size: 39px;
 	line-height: 35px;
-	color: #DDB57E;
+	color: #D4AF37;
 	display: block;
 	padding: 0px;
 	clear: both;
@@ -403,7 +404,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#292a37', end
 	font-family: 'cloudregular';
 }
 .mnatext {
-	font-size: 19px;
+	font-size: 20px;
 	line-height: 32px;
 	padding: 0px;
 	width: 720px;
@@ -427,7 +428,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#292a37', end
 	font-size: 18px;
 	line-height: 25px;
 	text-transform: uppercase;
-	color: #DDB57E;
+	color: #D4AF37;
 	display: block;
 	padding: 0px;
 	clear: both;
@@ -543,19 +544,20 @@ width: 50%;
 	margin-bottom: 5px;
 	margin-left: 0px;
 	font-family: 'silk_serifregular';
+	color: #D4AF37;
 }
 .mnbhead span {
 	font-family: 'silk_serifbold';
 }
 .mnbmore a {
-	color: #DAB781;
+	color: #D4AF37;
 }
 .mnbmore a:hover {
 	
 	text-decoration: underline;
 }
 .mnbmore {
-	font-size: 14px;
+font-size: 16px;
 line-height: 25px;
 padding: 0px;
 float: left;
@@ -611,7 +613,7 @@ margin-left: 0px;
 	font-size: 60px;
 	line-height: 65px;
 	text-transform: uppercase;
-	color: #DDB57E;
+	color: #D4AF37;
 	font-family: 'silk_serifmedium';
 	margin: 0px;
 	padding: 0px;
@@ -641,7 +643,13 @@ margin-left: 0px;
 	padding: 0px;
 	float: left;
 	width: 100%;
-	filter:brightness(150%) contrast(120%)Â ;
+	filter:brightness(150%) contrast(120%) ;
+}
+.mnpic-own {
+	width: 307px;
+	height: 407px;
+	object-fit: cover;
+	/* object-fit: contain; */
 }
 .abbbox-container .mnpic{
 	height: auto;
@@ -665,7 +673,7 @@ margin-left: 0px;
 }
 
 .mncbox .mntext {
-	font-size: 15px;
+	font-size: 16px;
 	opacity: 0.75;
 }
 .mncbox .mntext p {
@@ -719,7 +727,7 @@ margin-top: -5px;
 	clear: both;
 }
 .mndsubh {
-font-size: 14px;
+font-size: 16px;
 line-height: 25px;
 text-transform: uppercase;
 color: #646464;
@@ -742,7 +750,7 @@ margin-right: 0px;
 margin-bottom: 0px;
 margin-left: 0px;
 font-family: cloudregular;
-font-size: 19px;
+font-size: 20px;
 height: 54px;
 }
 .mndtext {
@@ -865,8 +873,8 @@ textarea.mneform {
 	height: 120px;
 }
 .mneform:hover {
-	color: #DDB57E;
-	border-bottom-color: #DDB57E;
+	color: #D4AF37;
+	border-bottom-color: #D4AF37;
 }
 .mnecon .mnlink {
 	margin-top: 50px;
@@ -1027,7 +1035,7 @@ textarea.mneform {
 }
 .actnav a:hover {
 	font-family: cloudbold;
-	color: #DDB57E;
+	color: #D4AF37;
 }
 .svpersonal_a {
 	margin: 0px;
@@ -1110,7 +1118,7 @@ textarea.mneform {
 	font-family: cloudbold;
 	font-size: 24px;
 	line-height: 25px;
-	color: #21333E;
+	color: #1a3a52;
 	padding: 0px;
 	float: left;
 	width: 100%;
@@ -1120,17 +1128,17 @@ textarea.mneform {
 	margin-left: 0px;
 }
 .about_a  .mnhead {
-	color: #BFA179;
+	color: #D4AF37;
 }
 
 .about_a  .mntext {
-	color: #21333E;
+	color: #1a3a52;
 	margin-top: 65px;
 }
 .abadesc {
 	font-family: cloudbold;
-	font-size: 19px;
-	color: #BFA178;
+	font-size: 20px;
+	color: #D4AF37;
 	padding: 0px;
 	float: left;
 	width: 100%;
@@ -1188,7 +1196,7 @@ textarea.mneform {
 .abbname {
 	font-size: 21px;
 	line-height: 21px;
-	color: #DDB57E;
+	color: #D4AF37;
 	padding: 0px;
 	float: left;
 	width: 100%;
@@ -1198,7 +1206,7 @@ textarea.mneform {
 	margin-left: 0px;
 }
 .abbjob {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 22px;
 	margin: 0px;
 	padding: 0px;
@@ -1340,7 +1348,7 @@ div#content.single-33 div.servicecorp {
 	font-family: cloudbold;
 	font-size: 26px;
 	line-height: 25px;
-	color: #DDB57E;
+	color: #D4AF37;
 	float: left;
 	width: 100%;
 	text-align: left;
@@ -1395,7 +1403,7 @@ div#content.single-33 div.servicecorp {
 	width: 100%;
 }
 .svsgscon p {
-	font-size: 19px;
+	font-size: 20px;
 	line-height: 30px;
 	padding: 0px;
 	float: left;
@@ -1424,15 +1432,15 @@ div#content.single-33 div.servicecorp {
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-	background: rgba(33,51,62,1);
-	background: -moz-linear-gradient(top, rgba(33,51,62,1) 0%, rgba(41,42,55,1) 39%, rgba(41,42,55,1) 51%, rgba(41,42,55,1) 61%, rgba(33,51,62,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(33,51,62,1)), color-stop(39%, rgba(41,42,55,1)), color-stop(51%, rgba(41,42,55,1)), color-stop(61%, rgba(41,42,55,1)), color-stop(100%, rgba(33,51,62,1)));
-	background: -webkit-linear-gradient(top, rgba(33,51,62,1) 0%, rgba(41,42,55,1) 39%, rgba(41,42,55,1) 51%, rgba(41,42,55,1) 61%, rgba(33,51,62,1) 100%);
-	background: -o-linear-gradient(top, rgba(33,51,62,1) 0%, rgba(41,42,55,1) 39%, rgba(41,42,55,1) 51%, rgba(41,42,55,1) 61%, rgba(33,51,62,1) 100%);
-	background: -ms-linear-gradient(top, rgba(33,51,62,1) 0%, rgba(41,42,55,1) 39%, rgba(41,42,55,1) 51%, rgba(41,42,55,1) 61%, rgba(33,51,62,1) 100%);
-	background: linear-gradient(to bottom, rgba(33,51,62,1) 0%, rgba(41,42,55,1) 39%, rgba(41,42,55,1) 51%, rgba(41,42,55,1) 61%, rgba(33,51,62,1) 100%);
+	background: rgba(20,42,66,1);
+	background: -moz-linear-gradient(top, rgba(20,42,66,1) 0%, rgba(26,58,82,1) 39%, rgba(26,58,82,1) 51%, rgba(26,58,82,1) 61%, rgba(20,42,66,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(20,42,66,1)), color-stop(39%, rgba(26,58,82,1)), color-stop(51%, rgba(26,58,82,1)), color-stop(61%, rgba(26,58,82,1)), color-stop(100%, rgba(20,42,66,1)));
+	background: -webkit-linear-gradient(top, rgba(20,42,66,1) 0%, rgba(26,58,82,1) 39%, rgba(26,58,82,1) 51%, rgba(26,58,82,1) 61%, rgba(20,42,66,1) 100%);
+	background: -o-linear-gradient(top, rgba(20,42,66,1) 0%, rgba(26,58,82,1) 39%, rgba(26,58,82,1) 51%, rgba(26,58,82,1) 61%, rgba(20,42,66,1) 100%);
+	background: -ms-linear-gradient(top, rgba(20,42,66,1) 0%, rgba(26,58,82,1) 39%, rgba(26,58,82,1) 51%, rgba(26,58,82,1) 61%, rgba(20,42,66,1) 100%);
+	background: linear-gradient(to bottom, rgba(20,42,66,1) 0%, rgba(26,58,82,1) 39%, rgba(26,58,82,1) 51%, rgba(26,58,82,1) 61%, rgba(20,42,66,1) 100%);
 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21333e', endColorstr='#21333e', GradientType=0 )
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14283a', endColorstr='#14283a', GradientType=0 )
 ; 	text-align: center;
 }
 
@@ -1489,7 +1497,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21333e', end
 	font-family: cloudbold;
 	font-size: 26px;
 	line-height: 35px;
-	color: #DDB57E;
+	color: #D4AF37;
 	padding: 0px;
 	float: left;
 	width: 100%;
@@ -1500,7 +1508,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21333e', end
 }
 .svcorpboxh h3 {
 	font-family: cloudbold;
-	font-size: 19px;
+	font-size: 20px;
 	padding: 0px;
 	float: left;
 	width: 100%;
@@ -1511,7 +1519,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21333e', end
 	line-height: 30px;
 }
 .svcorpboxh p {
-	font-size: 19px;
+	font-size: 20px;
 	padding: 0px;
 	float: left;
 	width: 100%;
@@ -1535,8 +1543,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21333e', end
 	border-bottom-width: 1px;
 	border-top-style: solid;
 	border-bottom-style: solid;
-	border-top-color: #384852;
-	border-bottom-color: #384852;
+	border-top-color: #2c5a7e;
+	border-bottom-color: #2c5a7e;
 	text-align: left;
 }
 .svaboxh {
@@ -1550,7 +1558,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21333e', end
 }
 .svaboxh h3 {
 	font-family: cloudbold;
-	font-size: 19px;
+	font-size: 20px;
 	line-height: 30px;
 	margin: 0px;
 	padding: 0px;
@@ -1565,7 +1573,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21333e', end
 	width: 100%;
 }
 .svatext {
-	font-size: 19px;
+	font-size: 20px;
 	line-height: 30px;
 	margin: 0px;
 	padding: 0px;
@@ -1598,22 +1606,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21333e', end
 }
 .svcorphalf h3 {
 	font-family: cloudbold;
-	font-size: 19px;
+	font-size: 20px;
 	line-height: 22px;
-	color: #ddb57e;
+	color: #D4AF37;
 	margin: 0px;
 	float: left;
 	width: 350px;
 	padding-top: 0px;
-	padding-right: 19px;
+	padding-right: 20px;
 	padding-bottom: 24px;
 	padding-left: 70px;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: #ddb57e;
+	border-bottom-color: #D4AF37;
 }
 .svcorphalf ul {
-	font-size: 19px;
+	font-size: 20px;
 	line-height: 30px;
 	padding: 0px;
 	float: left;
@@ -1720,7 +1728,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21333e', end
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-	background-color: #21333e;
+	background-color: #1a3a52;
 	color: #fff;
 }
 .ftlogo {
@@ -1748,10 +1756,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21333e', end
 	width: auto;
 }
 .fthead {
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 20px;
 	text-transform: uppercase;
-	color: #DDB57E;
+	color: #D4AF37;
 	padding: 00px;
 	float: left;
 	width: 100%;
@@ -1762,7 +1770,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21333e', end
 	font-family: 'silk_serifmedium';
 }
 .ftmenu {
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 25px;
 	color: #fff;
 	margin: 0px;
@@ -1876,7 +1884,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21333e', end
     font-family: cloudregular;
     font-size: 24px;
     line-height: 1;
-    color: #DAB781;
+    color: #D4AF37;
     margin: 0 0 30px;
 }
 .contact-infos {
@@ -1958,7 +1966,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21333e', end
     font-size: 36px;
     line-height: 1;
     text-transform: uppercase;
-    color: #DDB57E;
+    color: #D4AF37;
     font-family: 'silk_serifmedium';
 }
 .testimonial-container {
@@ -1974,7 +1982,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21333e', end
     content: "";
     display: block;
     padding-bottom: 100%;
-    background-color: #21333e;
+    background-color: #1a3a52;
 }
 .testimonial-container .object-fit > img {
     display: block;
