@@ -256,7 +256,7 @@ height: auto;
 	width: 80%;
 	max-width: 880px;
 	margin: 0px auto 15px;
-	color: #D4AF37;
+	/* color: #D4AF37; */
 	font-family: 'silk_serifbold';
 }
 .mslhead {
